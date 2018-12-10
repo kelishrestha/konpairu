@@ -1,0 +1,35 @@
+{
+  "name": "konpairu",
+  "version": "1.0.0",
+  "description": "Compiled app for assets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/silentshockers/konpairu.git"
+  },
+  "keywords": [
+    "assets",
+    "compiled",
+    "assets",
+    "fonts",
+    "plugins"
+  ],
+  "author": "Kelina Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/silentshockers/konpairu/issues"
+  },
+  "homepage": "https://gitlab.com/silentshockers/konpairu#README",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "hammerjs": "^2.0.8"
+  }
+}
